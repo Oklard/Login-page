@@ -1,0 +1,100 @@
+/* 
+
+  Background: 
+    #FFFFFF
+    #F5F5F5 
+
+  Font Color:
+    #003C5E
+    #B0B0B0
+    #484848
+    
+  Border:
+    #E4E4E7
+
+*/
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5f5;
+  align-items: center;
+}
+p {
+  color: #b0b0b0;
+  display: flex;
+  margin-top: -25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: flex-end;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Poppins, sans-serif;
+  /* font-family: Quicksand, sans-serif; */
+}
+
+input {
+  height: 40px;
+  width: 260px;
+  border-radius: 5px;
+
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+}
+footer {
+  margin-left: 85%;
+  color: #b0b0b0;
+  font-size: 10px;
+}
+h2 {
+  color: #003c5e;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+label {
+  color: #003c5e;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+input .Email {
+  margin-bottom: 10px;
+}
+/* Button {
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+   color: #003c5e;
+  margin: auto;
+  margin-top: 30px;
+}
+Button:hover {
+  cursor: pointer;
+  box-shadow: black 5px;
+} */
+/* Button {
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  color: #003c5e;
+  margin: auto;
+  margin-top: 30px;
+} */
